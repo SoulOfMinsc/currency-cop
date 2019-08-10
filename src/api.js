@@ -213,6 +213,7 @@ exports.ItemRateTypes = {
   fragment: exports.GetFragmentOverview,
   card: exports.GetDivCardOverview,
   map: exports.GetMapOverview,
+  scarab: exports.GetScarabOverview,
   gem: exports.GetSkillGemOverview,
   unique_map: exports.GetUniqueMapOverview,
   unique_jewel: exports.GetUniqueJewelOverview,

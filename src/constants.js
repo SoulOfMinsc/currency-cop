@@ -21,7 +21,7 @@ export const NINJA_ITEM_URL                       = 'https://poe.ninja/api/data/
 
 export const NINJA_CURRENCY_OVERVIEWS             = [ 'Currency', 'Fragment' ]
 
-export const NINJA_ITEM_OVERVIEWS                 = [ 'Map', 'Essence', 'SkillGem',
+export const NINJA_ITEM_OVERVIEWS                 = [ 'Map', 'Essence', 'SkillGem', 'Scarab',
                                                       'UniqueMap', 'UniqueJewel', 'UniqueFlask',
                                                       'UniqueArmour', 'UniqueWeapon', 'UniqueAccessory',
                                                       'Fossil', 'Resonator', 'Prophecy'

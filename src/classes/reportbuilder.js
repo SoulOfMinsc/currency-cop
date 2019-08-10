@@ -10,6 +10,7 @@ import {
   GetCharacters,
   GetLeagueStashTab,
   GetCurrencyOverview,
+  GetScarabOverview,
   GetEssenceOverview,
   GetFragmentOverview,
   GetDivCardOverview,
@@ -198,6 +199,7 @@ class ReportBuilder {
       .then(() => this.notice('Fetching currency rates...'))
       .then(() => (this.data.rates = []))
       .then(() => this.fetchCurrencyRates('currency', GetCurrencyOverview))
+      .then(() => this.fetchScarabRates('scarab', GetScarabOverview))
       .then(() => this.fetchRate('essence', GetEssenceOverview))
       .then(() => this.fetchFragmentRates('fragment', GetFragmentOverview))
       .then(() => this.fetchDivCardRates('card', GetDivCardOverview))
